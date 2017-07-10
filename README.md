@@ -4,7 +4,7 @@ Hey :smile:
 
 Welcome to our Java Challenge repository. This README will guide you on how to participate in this challenge.
 
-Please fork this repo before you start working on the challenge. We will evaluate the code on the fork.
+**Please fork this repo before you start working on the challenge.** We will evaluate the code on the fork.
 
 **FYI:** Please understand that this challenge is not decisive if you are applying to work at [Unbabel](https://unbabel.com/jobs). There are no right and wrong answers. This is just an opportunity for us both to work together and get to know each other in a more technical way.
 

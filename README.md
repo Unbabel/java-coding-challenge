@@ -11,9 +11,9 @@ Welcome to our Java Challenge repository. This README will guide you on how to p
 ## Challenge
 
 
-#### web page application in Salesforce
+#### web application in JAVA
 
-Build a Visualforce Page/Lightning component with 1 input text field, 1 picklist field, 1 button and 1 output text area:
+Build a web application in Java composed by a page with 1 input text field, 1 picklist field, 1 button and 1 output text area:
 
 1. **Input text field: “Text to translate:”**
 	To introduce the text to be translated.
@@ -22,17 +22,15 @@ Build a Visualforce Page/Lightning component with 1 input text field, 1 picklist
 Must present a list of languages to translate. (you can check the supported languages in the Unbabel website).
  
 3.  **Button: “Submit”**
-Should submit the text to our Salesforce Connector (link in Resources) in order to be translated. (Be aware that you must check when the Response Status is completed).
+Should submit the text to our API (link in Resources) in order to be translated. (Be aware that you must check when the Response Status is completed).
  
 4.  **Five column table with:**
 “From Language, Original Text, To Language, Translated Text, Status".
 Should present all the translations already made.
  
-You can add images/fields/buttons as you seem fit.
-
-
-Translations must be done using the Unbabel Connector with the Content Type `Tickets`. (Ask whoever has been in contact with you about the credentials for the Salesforce Org).
-
+You can add images/fields/buttons as you seem fit. 
+ 
+Translations must be done using the Unbabel API in sandbox mode. (Ask whoever has been in contact with you about the credentials).
 You must also do a document **"Application Technical Scope"**  with:
 * Data Model
 * Technical Scope
@@ -42,6 +40,8 @@ Add as a pdf in the repository.
 
 #### Requirements
 * Create a scalable application.
-* Have unit tests with assertion and code coverage >85%
+* Only use Unbabel's Translation API on sandbox mode
+* Have unit tests
 
 #### Resources
+* Unbabel's API: http://developers.unbabel.com/

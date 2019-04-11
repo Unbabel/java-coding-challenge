@@ -1,16 +1,14 @@
-Example
-
-Good points:
+**Good points:**
 
 - very good tests
 - well documented
 
-Bad points:
+**Bad points:**
 
 - convoluted logic
 
-Overall
+**Overall**
 
 - I would recommend this person because this or that
 
-Project
+**Project**

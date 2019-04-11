@@ -1,14 +1,20 @@
-**Good points:**
+**Good points**
 
-- very good tests
-- well documented
+> very good tests
+> well documented
 
-**Bad points:**
+**Bad points**
 
-- convoluted logic
+>  convoluted logic
 
 **Overall**
 
-- I would recommend this person because this or that
+>  I would recommend this person because this or that
 
 **Project**
+
+>  link for the project
+
+/label ~task
+
+/assign @pedro.caldeira @diogoroxo

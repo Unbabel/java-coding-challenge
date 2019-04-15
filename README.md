@@ -11,7 +11,7 @@ Welcome to our Java Challenge repository. This README will guide you on how to p
 ## Challenge
 
 
-#### web application in JAVA
+#### Web Application in JAVA
 
 Build a web application in Java composed by a page with 1 input text field, 1 picklist field, 1 button and 1 output text area:
 
@@ -38,6 +38,19 @@ You must also do a document **"Application Technical Scope"**  with:
 
 Add as a pdf in the repository.
 
+#### Recommendations
+
+In this repo you will find a basic project using Spring-boot with thymeleaf as template engine and H2 as database using Hibernate ORM.
+You are recommended to use this boilerplate, but if you wish to build on another platform or build from scratch, surprise us :smile: !
+
+
+To run the example:
+`mvn spring-boot:run`
+
+
+To run tests on the example:
+`mvn test`
+
 #### Requirements
 * Create a scalable application.
 * Only use Unbabel's Translation API on sandbox mode
@@ -45,3 +58,4 @@ Add as a pdf in the repository.
 
 #### Resources
 * Unbabel's API: http://developers.unbabel.com/
+* Spring Boot guides: https://spring.io/guides

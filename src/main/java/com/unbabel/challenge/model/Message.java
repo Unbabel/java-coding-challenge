@@ -12,8 +12,6 @@ public class Message {
     @Column(length = 100)
     private String msg;
 
-
-
     public Message() {
     }
 

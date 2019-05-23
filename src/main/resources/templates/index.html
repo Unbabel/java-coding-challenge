@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Unbabel Java Coding Challenge</title>
+    <link rel="stylesheet" th:href="@{webjars/bootstrap/4.2.1/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{css/main.css}"/>
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.3.1/jquery.min.js}"></script>
+    <script type="text/javascript" th:src="@{webjars/bootstrap/4.2.1/js/bootstrap.min.js}"></script>
+    <script type="text/javascript" th:src="@{js/main.js}"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Unbabel Challenge</a>
+</nav>
+
+<div th:class="container">
+    <div class="company-name">
+        <!-- This comes from the properties file -->
+        <h2 th:text="'Hello ' + ${company}"></h2>
+    </div>
+
+    <div>
+        <h3>List of random messages:</h3>
+        <!-- Simple for loop in thymeleaf -->
+        <ul th:each="message : ${messages}">
+            <li th:text="${message.getMsg()}"></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>

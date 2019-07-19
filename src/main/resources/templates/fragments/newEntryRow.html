@@ -1,0 +1,17 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head></head>
+<body>
+<div th:fragment="translationEntry" th:unless="${translationEntry != null}" th:remove="tag">
+    <tr>
+        <td th:text="${translationEntryRow.sourceLanguage}"></td>
+        <td th:text="${translationEntryRow.text}"></td>
+        <td th:text="${translationEntryRow.targetLanguage}"></td>
+        <td th:text="${translationEntryRow.status}"></td>
+        <td></td>
+    </tr>
+</div>
+</body>
+</html>

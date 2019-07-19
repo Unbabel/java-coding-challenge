@@ -1,3 +1,146 @@
 .company-name{
     margin:15px 0 20px 0;
 }
+
+.company-name{
+    margin:15px 0 20px 0;
+}
+
+.unbabel .navbar{
+    background-color:#3041d9;
+    padding:20px
+}
+
+.unbabel .navbar .logo-slogan{
+    color:white;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-left:5px;
+    position:relative;
+    top:4px;
+}
+
+.unbabel .translation-box{
+    margin-top:100px;
+    margin-bottom:50px;
+    padding-left:20px;
+    padding-right:20px;
+    width:100%;
+}
+
+.unbabel .translation-box .header{
+    display: flex;
+    height:60px;
+    padding:20px;
+    color:white;
+    background-color:#15006d;
+    border-radius:15px 15px 0 0;
+}
+
+.unbabel #select-targetlanguage-block{
+    margin-left: 10px;
+}
+
+.unbabel .translation-box #textarea{
+    width: 100%;
+    position: relative;
+    top: 0px;
+    border-radius: 0 0 15px 15px;
+    border: solid #15006d;
+    padding: 10px 15px 10px 15px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline:none !important;
+}
+
+.unbabel .translation-box #textarea:focus{
+    background-color:#c6d2ff;
+}
+
+.unbabel .translate-btn {
+    width:300px;
+    margin-top:20px;
+    padding: 0 32px;
+    cursor: pointer;
+    transition: background-color .15s ease;
+    text-decoration: none;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    color: #fff;
+    border: 0;
+    border-radius: 15px;
+    outline: 0;
+    background-color: #3953bf;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    font-weight: 700;
+    line-height: 48px;
+    position: relative;
+}
+
+.unbabel .translate-btn:hover{
+    color: #fff;
+    background-color: #859eff;
+}
+
+.unbabel .translation-history{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.unbabel .table-wrapper{
+    border: solid #15006d;
+    border-radius: 15px;
+}
+
+.unbabel .translation-history-table{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.unbabel .translation-history-table th,
+.unbabel .translation-history-table td {
+    padding:15px;
+}
+
+.unbabel .translation-history-table th{
+    color:white;
+    background-color:#15006d;
+}
+
+.unbabel .translation-history-table tr:nth-child(odd) {
+    background-color: #c6d2ff;
+}
+
+.unbabel #submit-translation .load-icon{
+    width:40px;
+}
+
+textarea::-webkit-input-placeholder {
+    font-weight:600;
+    color:#adb5bd;
+}
+
+textarea:-moz-placeholder { /* Firefox 18- */
+    font-weight:600;
+    color:#adb5bd;
+}
+
+textarea::-moz-placeholder {  /* Firefox 19+ */
+    cfont-weight:600;
+    color:#adb5bd;
+}
+
+textarea:-ms-input-placeholder {
+    font-weight:600;
+    color:#adb5bd;
+}
+
+textarea::placeholder {
+    font-weight:600;
+    color:#adb5bd;
+}

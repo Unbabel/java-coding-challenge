@@ -1,0 +1,15 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head></head>
+<body>
+<div th:fragment="targetLanguagesSelector" th:unless="${#lists.isEmpty(targetLanguages)}" th:remove="tag">
+    <span>to:</span>
+    <select class="form-field" data-id="target_language" id="target_lang">
+        <option val="">Select Language</option>
+        <option th:each="lang: ${targetLanguages}" th:value="${lang.shortname}" th:text="${lang.name}" />"
+    </select>
+</div>
+</body>
+</html>
